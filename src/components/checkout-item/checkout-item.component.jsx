@@ -13,7 +13,7 @@ const CheckoutItem = ({ cartItem }) => {
   const removeItemHandler = ()=> removeItemFromCart(cartItem);
 
   return (
-    <div className="checkout-item-container">
+    <div className="category-item-container">
       <div className="image-container">
         <img src={imageUrl} alt={`${name}`} />
       </div>
@@ -30,4 +30,4 @@ const CheckoutItem = ({ cartItem }) => {
     </div>
   );
 };
-export default CheckoutItem;
+export default CheckoutItem ;
